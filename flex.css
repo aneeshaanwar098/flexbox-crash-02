@@ -5,6 +5,8 @@ header{
 display: flex;
 justify-content: space-between;
 background-color: white;
+background-color: #541554;
+padding: 1rem;
 }
 .headerleft{
     display: flex;
@@ -12,62 +14,96 @@ background-color: white;
     align-items: center;
     gap: 15px;
     margin-left: 5px;
+    color: #FFFFFF;
 
 }
 .headerright{
     display: flex;
     justify-items: center;
     gap: 10px;
-    margin-right: 25px;
-    gap: 3px; 
+    margin-right: 24px;
+    gap: 1.1rem; 
+    margin: 0 100px 0 0;
+}
+
+.buttona{
+    background-color: #541554;
+    padding: 5px 10px 5px 10px;
+    border: #541554;
+    color: #FFFFFF;
 }
 .button{
     background-color: #541554;
-    color: aliceblue;
- padding: 5px 15px 5px 15px;
- margin: 5px;  
- border-radius: 3px; 
+    color: #FFFFFF;
+    border: 1px solid white;
+    padding: 6px 12px 6px 12;
+    border-radius: 3px;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.buttona{
-    background-color: white;
-    padding: 5px 10px 5px 10px;
-    border: white;
+.button2{
+    background-color: #FFFFFF;
+    color: #541554;
+    border:2px solid #FFFFFF;
+    padding: 6px 10px 6px 10px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .bodyleft{
-    margin: 30px 0px 0px 20px;
+    margin: 30px 0px 0px 15px;
+
 
 
 }
 
 .head2{
-    background-color: #F7F0E7;
+    background-color:#541554;
+    display: flex;
+    justify-content: space-between;
 }
 .heading{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 54px;
+    font-size: 22px;
 }
 .mainpara{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px
-
+    font-size: small;
+    color: #FFFFFF;
 }
-.img{
-padding: 5px ;
-margin: 20px 0px 0px 0px;
-width: 500px;
-} 
 .button3{
     background-color: #541554;
-    padding: 12px 30px 12px 30px;
+    padding: 11px 19px 11px 19px;
     border-radius: 2px;
-    color: white;
+    background-color: #FFFFFF;
+    font-size: 10px;
 } 
 .button4{
-    padding: 12px 30px 12px 30px;
-    border: 2px solid #541554;
     border-radius: 2px;
-    color: #541554;
+    background-color: #4285F4;
+    padding: 11px 19px 11px 19px;
+    font-size: 10px;
 } 
 .buttons{
     gap: 4px;
+}
+.heading1{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.heading2{
+    color: #ECB22E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.vid{
+    width: fit-content;
+    max-height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+}
+.headings{
+    padding: 5px;
+
 }
