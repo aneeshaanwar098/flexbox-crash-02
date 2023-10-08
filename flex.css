@@ -80,7 +80,7 @@ padding: 1rem;
 .button4{
     border-radius: 2px;
     background-color: #4285F4;
-    padding: 11px 13px 11px 13px;
+    padding: 11px 12px 11px 12px;
     font-size: 10px;
 } 
 .buttons{
@@ -104,5 +104,54 @@ padding: 1rem;
 }
 .headings{
     padding: 5px;
-
 }
+
+
+.head3{
+    background-color: #F4EDE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head4{
+    display: flex;
+    background-color: #F4EDE4;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    margin-bottom: 10px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.m1{
+    width: 80px;
+}
+.m2{
+    width: 50px
+}
+.m3{
+    width: 60px;
+}
+.m4{
+    width: 40px;
+}
+.m5{
+    width: 130px;
+}
+.m6{
+    width: 50px;
+}
+.text{
+    margin-top: 10px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+
